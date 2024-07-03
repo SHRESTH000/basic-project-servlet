@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	height:60px;
+	background-color:yellow;
+	display:flex;
+	justify-content: space-evenly;
+    align-items: center;
+}
+form{	
+    /* height: 300px; */
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+
+}
+input {
+    height: 50px;
+    background-color: lightgoldenrodyellow;
+}
+body{
+	height:660px;
+	background-color:pink;
+}
+h1{
+	background-color:yellow;
+}
+.cal{
+	height:400px;
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	border: 2px solid black;
+	padding:10px;
+}
+.fact{
+	height:200px;
+	width:100%;
+	border:2px solid black;
+	padding:10px
+}
